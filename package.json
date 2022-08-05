@@ -1,0 +1,63 @@
+{
+  "name": "CVI_RNApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "@react-native-firebase/analytics": "^15.1.1",
+    "@react-native-firebase/app": "^15.1.1",
+    "@react-native-firebase/messaging": "^15.1.1",
+    "@react-navigation/bottom-tabs": "^6.3.2",
+    "@react-navigation/drawer": "^6.4.3",
+    "@react-navigation/material-top-tabs": "^6.2.2",
+    "@react-navigation/native": "^6.0.11",
+    "@react-navigation/native-stack": "^6.7.0",
+    "appcenter": "4.4.4",
+    "appcenter-analytics": "4.4.4",
+    "appcenter-crashes": "4.4.4",
+    "deprecated-react-native-prop-types": "^2.3.0",
+    "i18n-js": "^3.9.2",
+    "native-base": "^3.4.9",
+    "react": "17.0.2",
+    "react-native": "0.68.2",
+    "react-native-code-push": "^7.0.4",
+    "react-native-country-picker-modal": "^2.0.0",
+    "react-native-gesture-handler": "^2.5.0",
+    "react-native-localization": "^2.3.1",
+    "react-native-pager-view": "^5.4.25",
+    "react-native-reanimated": "^2.9.1",
+    "react-native-safe-area-context": "^4.3.1",
+    "react-native-screens": "^3.13.1",
+    "react-native-snap-carousel": "^3.9.1",
+    "react-native-step-indicator": "^1.0.3",
+    "react-native-svg": "^12.4.0",
+    "react-native-tab-view": "^3.1.1",
+    "react-native-vector-icons": "^9.2.0",
+    "react-native-webview": "^11.22.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/runtime": "^7.18.9",
+    "@react-native-community/eslint-config": "^3.0.3",
+    "@types/react-native-vector-icons": "^6.4.11",
+    "babel-jest": "^28.1.3",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^8.20.0",
+    "jest": "^28.1.3",
+    "metro-react-native-babel-preset": "^0.71.3",
+    "patch-package": "^6.4.7",
+    "postinstall-postinstall": "^2.1.0",
+    "react-native-svg-transformer": "^1.0.0",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
